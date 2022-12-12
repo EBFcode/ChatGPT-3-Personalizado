@@ -1,0 +1,80 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+h1{
+    text-align: center;
+}
+
+.chat-box {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.user-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-input {
+    flex: 1;
+    border: 1px solid #aaa;
+    padding: 5px;
+    font-size: 14px;
+    min-height: 25px;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.user-submit {
+    flex: 0;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.user-submit:hover {
+    background-color: #1b77d5;
+}
+
+/* Dark mode styles */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+    }
+
+    .chat-box {
+        background-color: #333;
+    }
+
+    .user-input,
+    .user-submit {
+        background-color: #444;
+        color: #ddd;
+        border-color: #777;
+    }
+
+    .user-submit:hover {
+        background-color: #555;
+    }
+}

@@ -1,0 +1,43 @@
+/* Estilos para el slider */
+.slider {
+    /* Establece el ancho y la altura del slider */
+    width: 500px;
+    height: 300px;
+  
+    /* Establece un fondo de color y un borde redondeado */
+    background-color: #eee;
+    border-radius: 10px;
+  
+    /* Establece la posición y el tamaño de la imagen del slider */
+    .slider__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+    /* Establece la posición y el tamaño del contenido del slider */
+    .slider__content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      height: 50%;
+  
+      /* Establece un fondo de color y un borde redondeado */
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+  
+      /* Establece el tamaño y el formato del título y la descripción del slider */
+      .slider__title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .slider__description {
+        font-size: 16px;
+      }
+    }
+  }
+  
